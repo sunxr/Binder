@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
       remoteBookManager = null;
       Log.e(TAG, "binder died.");
       Log.e(TAG, "binder died......");
+      Log.e(TAG, "binder died2.");
     }
   };
 

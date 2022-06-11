@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
     public void onServiceDisconnected(ComponentName componentName) {
       remoteBookManager = null;
       Log.e(TAG, "binder died.");
+      Log.e(TAG, "binder died......");
     }
   };
 
